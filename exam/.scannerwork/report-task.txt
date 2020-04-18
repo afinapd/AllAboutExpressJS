@@ -1,0 +1,6 @@
+projectKey=exam
+serverUrl=http://localhost:9000
+serverVersion=8.1.0.31237
+dashboardUrl=http://localhost:9000/dashboard?id=exam
+ceTaskId=AXCapE0r-u6zWb-8LET8
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXCapE0r-u6zWb-8LET8
