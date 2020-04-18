@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Node JS x Postman</title>
+</head>
+
+<body>
+    <button onclick="getUsers()">GET</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="result">
+        </tbody>
+    </table>
+
+    <label>Search Username</label>
+    <input type="text" id="input" value="">
+    <button onclick="btnSearch()" id="search">Search</button>
+    <p id="searchResult"></p>
+  
+
+    <label>Id</label>
+    <input type="text" id="id" name="id" value="">
+    <br>
+    <label>Name</label>
+    <input type="text" id="name" name="name" value="">
+    <br>
+    <label>Username</label>
+    <input type="text" id="username" name="username" value="">
+    <br>
+    <label>Email</label>
+    <input type="text" id="email" name="email" value="">
+    <button onclick="postUsers()">POST</button>
+
+    <script src="frontend.js"></script>
+</body>
+
+</html>
